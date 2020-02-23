@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="700.0" maxWidth="1000.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fitHeight="820.0" fitWidth="1244.0" layoutX="-116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/marble.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="600.0" fitWidth="600.0" layoutX="200.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/spillbrett.png" />
+         </image>
+         <effect>
+            <DropShadow offsetX="-2.0" />
+         </effect>
+      </ImageView>
+      <GridPane fx:id="gridPaneID" alignment="BOTTOM_LEFT" layoutX="216.0" layoutY="67.0" prefHeight="565.0" prefWidth="564.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="77.53942108154297" minWidth="70.0" prefWidth="70.60281372070312" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="73.05256652832031" minWidth="62.46057891845703" prefWidth="72.39718627929688" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.28285217285156" minWidth="60.94743347167969" prefWidth="69.20211791992188" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="75.05258178710938" minWidth="64.94744873046875" prefWidth="71.79788208007812" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="73.2828369140625" minWidth="61.947418212890625" prefWidth="70.76971435546875" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="71.02627563476562" minWidth="65.71713256835938" prefWidth="71.02627563476562" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="74.28286743164062" minWidth="67.97372436523438" prefWidth="71.1590576171875" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="73.02627563476562" minWidth="67.71713256835938" prefWidth="69.8409423828125" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="73.79920196533203" minHeight="48.22405242919922" prefHeight="71.20211791992188" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="75.02627563476562" minHeight="42.165283203125" prefHeight="71.79788208007812" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="74.02627563476562" minHeight="10.0" prefHeight="70.48686218261719" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="75.2828369140625" minHeight="10.0" prefHeight="69.23028564453125" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.05255126953125" minHeight="10.0" prefHeight="69.23031616210938" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.02627563476562" minHeight="10.0" prefHeight="70.76968383789062" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.97369384765625" minHeight="10.0" prefHeight="69.23031616210938" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="71.2828369140625" minHeight="10.0" prefHeight="70.02630615234375" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" prefHeight="76.0" prefWidth="52.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" prefHeight="0.0" prefWidth="85.0" GridPane.columnIndex="7" GridPane.rowIndex="0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="0" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" opacity="0.01" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </GridPane>
+      <HBox fx:id="switchPawnOption" alignment="TOP_CENTER" disable="true" layoutX="217.0" layoutY="221.0" prefHeight="174.0" prefWidth="564.0" style="-fx-background-color: A09E9D;" visible="false">
+         <children>
+            <VBox alignment="CENTER" prefHeight="283.0" prefWidth="142.0">
+               <children>
+                  <Button fx:id="btnQueen" alignment="CENTER" mnemonicParsing="false" onAction="#buttonOnAction">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/WhiteQueen.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="283.0" prefWidth="141.0">
+               <children>
+                  <Button fx:id="btnBishop" mnemonicParsing="false" onAction="#buttonOnAction">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/WhiteBishop.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="283.0" prefWidth="142.0">
+               <children>
+                  <Button fx:id="btnKnight" mnemonicParsing="false" onAction="#buttonOnAction">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/WhiteKnight.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="283.0" prefWidth="140.0">
+               <children>
+                  <Button fx:id="btnRook" mnemonicParsing="false" onAction="#buttonOnAction">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/WhiteRook.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
